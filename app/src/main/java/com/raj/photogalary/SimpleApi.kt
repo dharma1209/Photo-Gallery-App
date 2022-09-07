@@ -5,9 +5,7 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.*
 
-const val API_KEY = "13052447-1909a7a8dc154dcc976dbbbac"
 //url = "https://pixabay.com/api/?key=13052447-1909a7a8dc154dcc976dbbbac&q=yellow+flowers&image_type=photo&pretty=true"
-//Authorization
 interface SimpleApi{
 
     @GET("api/?key=13052447-1909a7a8dc154dcc976dbbbac")
